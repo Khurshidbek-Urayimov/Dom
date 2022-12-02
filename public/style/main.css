@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.navbar_top {
+    background-image: url("../../public/images/hero.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.home-btn {
+    background: #FF7400;
+    color: #fff;
+    height: 43px;
+    border-radius: 0;
+}
+.home-btn:hover{
+    background: transparent;
+    color: #FF7400;
+    border: 1px solid #FF7400;
+}
+
+.home-sub {
+    padding-top: 25%;
+}
+.recommended, .round-number{
+    background: #FF7400;
+}
+.home-sub h2 {
+    color: rgba(214, 126, 53, 1);
+    font-size: 40px;
+}
+
+.color-orange {
+    color: rgba(214, 126, 53, 1);
+
+}
+
+.home-sub span {
+    font-size: 52px;
+}
+
+.home-cards {
+    margin: -70px 0px 0px 0px;
+    position: relative;
+    display: block;
+}
+.container_image{
+    background-image: url("../../public/images/03.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.menu{
+    background-image: url("../../public/images/06.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.hw100{
+    height: 100vh;
+}
+.round-number{
+    border: 7px solid #fff;
+    margin: 125px 0 0 155px;
+}
+.card{
+    border-radius: 0!important;
+}
+.round-number span{
+    font-size: 22px;
+    /*top: 0!important;*/
+}
+.menu-btn{
+    width: 180px;
+}
+.testimonial{
+    background: rgba(229, 229, 229, 1);
+}
+.carousel-indicators{
+    bottom: -43px!important;
+}
+.carousel-indicators li{
+    border:none!important;
+    width: 10px!important;
+    height: 10px!important;
+    background: transparent;
+    content: url("../../public/images/icons/indicators.svg");
+}
+.carousel-indicators .active{
+    content: url("../../public/images/icons/indicators-red.svg");
+}
+@media only screen and (max-width: 767px) {
+    h1, h2{
+        font-size: 1.5rem;
+    }
+    .home-sub{
+        padding-top: 10%;
+    }
+    .home-sub h2{
+        font-size: 1.5rem;
+    }
+    .home-sub span{
+        font-size: 2.1rem;
+    }
+    .container_btn{
+        width: 55%;
+    }
+    .container_btn .btn{
+        width: 100%;
+    }
+    .card-image{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .navbar-collapse ul{
+        padding-left: 0!important;
+        /*margin-left: 0!important;*/
+    }
+    .navbar-collapse .w-100{
+        display: flex!important;
+        align-items: normal!important;
+        justify-content: normal!important;
+    }
+    .navbar-collapse .nav-item{
+        margin-left: 0!important;
+    }
+    .responsive-navbar{
+        margin-left:0 auto!important;
+    }
+}
